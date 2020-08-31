@@ -1,5 +1,5 @@
 # Mitosis Counter for Histopathology
-This integrated tool aims to take input histopathology WSIs for breast cancer  (.svs format), identifies coordinates of mitotic figures using two-stage CNN and produces mitotic grading using clustering (default 10 HPF).
+This integrated tool aims to take input histopathology WSIs for breast cancer  (.svs format), identifies coordinates of mitotic figures using two-stage CNN and produces mitotic grading using agglomerative clustering (for the default 10 high power field standard).
 
 # Reference 
 All data, training libraries and segmentation methodologies come from: 
